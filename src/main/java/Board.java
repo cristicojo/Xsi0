@@ -1,6 +1,5 @@
 public class Board {
 
-
     private Mark table[][];
 
     public enum Mark {
