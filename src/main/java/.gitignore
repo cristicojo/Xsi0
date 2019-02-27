@@ -1,0 +1,12 @@
+.DS_Store
+
+.idea/
+
+TicTacToe.iml
+
+src/.DS_Store
+
+src/main/.DS_Store
+
+target/
+
