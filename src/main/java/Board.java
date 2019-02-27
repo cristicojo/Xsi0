@@ -73,23 +73,14 @@ public class Board {
 
     Mark getWinner(int i, int j) {
 
-
         //coloane
-        for(j=0;j<table[i].length;j++){
-
-            if (table[0][j] != Mark.MARK_EMPTY && table[0][j] == table[1][j] && table[1][j] == table[2][j])
-                return table[0][j];
-        }
-
+        if (table[0][j] != Mark.MARK_EMPTY && table[0][j] == table[1][j] && table[1][j] == table[2][j])
+            return table[0][j];
 
 
         //linii
-        for (i=0;i<table.length;i++){
-
-            if (table[i][0] != Mark.MARK_EMPTY && table[i][0] == table[i][1] && table[i][1] == table[i][2])
-                return table[i][0];
-        }
-
+        if (table[i][0] != Mark.MARK_EMPTY && table[i][0] == table[i][1] && table[i][1] == table[i][2])
+            return table[i][0];
 
 
         //diagonala principala
