@@ -1,0 +1,4 @@
+/target
+/.idea
+/TicTacToe.iml
+*.DS_Store
