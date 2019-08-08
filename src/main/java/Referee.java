@@ -46,12 +46,10 @@ public abstract class Referee implements Readable {
         Board.Mark aux = t.getWinner(coord[0], coord[1]);
 
         if (p1.Symbol(aux)) {
-            System.out.println("A castigat "+p1);
+            System.out.println("A castigat " + p1);
             return p1;
-        }
-
-         else if (p2.Symbol(aux)) {
-            System.out.println("A castigat "+p2);
+        } else if (p2.Symbol(aux)) {
+            System.out.println("A castigat " + p2);
             return p2;
 
         } else
